@@ -14,10 +14,11 @@ export default function Home ({ allPostsData }) {
       <section className={utilStyles.headingMd}>
         <p>Hello I'm <b>Tim</b>, I am a web developer and a translator (Chinese/English).
          You can find me on <a href="https://github.com/TianyiTimothy">github</a> </p>
-        <p>
+        {/* <p>
           You might wanna check out my blog "
           <Link href="/posts/first-post"><a>first-post</a></Link>"
-        </p>
+        </p> */}
+        
       </section>
       {/* get static props section */}
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
